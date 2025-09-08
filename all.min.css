@@ -924,49 +924,85 @@ body,button {
 .page-46 {
 	background:#66cbff
 }
+.page-46 img {
+	position:absolute;
+	bottom:1em;
+	right:1em;
+	max-width:40%;
+	max-height:60%;
+	z-index:1
+}
 .page-46 h3 {
 	position:absolute;
 	top:1em;
-	left:50%;
-	margin-left:-40%;
+	left:10%;
+	right:10%;
 	padding:0;
 	margin-top:0;
-	width:10em;
-	text-align:left
+	width:80%;
+	text-align:left;
+	line-height:1.2em;
+	z-index:2
 }
 .page-46 h3 span {
-	display:inline-block;
-	width:1em;
+	display:block;
+	margin-bottom:0.25em;
 	vertical-align:top
 }
 .page-47 {
 	background-color:#fdcbca
 }
+.page-47 img {
+	position:absolute;
+	bottom:0.5em;
+	right:20%;
+	top:1.5em;
+	max-width:50%;
+	max-height:70%;
+	z-index:1
+}
 .page-47 h3 {
 	position:absolute;
 	top:1em;
-	left:50%;
-	margin-left:-40%;
+	left:10%;
+	right:10%;
 	padding:0;
 	margin-top:0;
-	width:10em;
-	text-align:left
+	width:80%;
+	text-align:left;
+	line-height:1.2em;
+	z-index:2
 }
 .page-47 h3 span {
-	display:inline-block;
-	width:1em;
+	display:block;
+	margin-bottom:0.25em;
 	vertical-align:top
 }
 .page-48 {
 	background-color:#e3e2e7
 }
 .page-49 {
-	background-color:#fce6b6;
-	text-align:left
+	position: relative;
 }
+
 .page-49 img {
-	margin:0
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
+
+.page-49 p {
+  position: relative;
+  z-index: 2;
+  color: #333;  /* atau warna kontras */
+  text-align: center;
+  margin-top: 2em;
+  right:50%
+}
+
 .page-50 {
 	background-color:#aae1f6;
 	padding:0
